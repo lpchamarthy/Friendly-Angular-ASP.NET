@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="row">
+    <div class="col-md-4">
+        <div class="main_avatar">
+            <img class="card-img-top" src="../images/banner_placeholder.jpg" alt="Banner image" />
+            <div class="card-body">
+                <img class="profile_pic" src="../images/profile_avatar_placeholder.jpg" alt="profile image" />
+                <h4 class="card-title">Priyanka</h4>
+                <p class="card-text">I am very cheer-loving girl. I like helping everyone...!</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <h1 class="card-title">Home</h1>
+        <!--staus component-->
+        <div class="status_component">
+            <div class="input-group">
+                <input type="text" class="form-control"  placeholder="Share what do you feel today..!" />
+                <span class="input-group-btn" id="basic-addon2">
+                    <button class="btn btn-secondary" type="button">Post!</button>
+                </span>
+            </div>
+            <hr />
+        </div>
+        <!--end of status component-->
+        <!--Feeds component-->
+        <div>
+            <ul class="list-group">
+                <li class="list-group-item">
+                    <div class="card border border-dark">
+                        <div class="card-body">
+                            <img class="profile_pic_feed" src="../images/profile_avatar_placeholder.jpg" alt="profile image" />
+                            <h4 class="card-title"><b>Mona</b></h4>
+                            <p class="card-text">Mana's status posted</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="card border border-dark">
+                        <div class="card-body">
+                            <img class="profile_pic_feed" src="../images/profile_avatar_placeholder.jpg" alt="profile image" />
+                            <h4 class="card-title"><b>Sona</b></h4>
+                            <p class="card-text">Sona's status posted</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!--end of Feeds component-->
+    </div>
+</div>
